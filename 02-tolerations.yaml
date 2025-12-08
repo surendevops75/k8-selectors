@@ -26,3 +26,8 @@ spec:
       containers:
       - name: nginx
         image: nginx:latest
+      tolerations:
+      - key: "project"
+        operator: "Equal"
+        value: "roboshop"
+        effect: "NoSchedule"
