@@ -13,6 +13,6 @@ spec:
             values:
             - us-east-1a
   containers:
-  - name:
+  - name: nginx
     image: nginx
     imagePullPolicy: Always
